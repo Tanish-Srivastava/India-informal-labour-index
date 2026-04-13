@@ -1,23 +1,3 @@
----
-jupyter:
-  kernelspec:
-    display_name: Python 3
-    language: python
-    name: python3
-  language_info:
-    name: python
-    version: 3.14.3
-  nbformat: 4
-  nbformat_minor: 5
----
-
-::: {#e07bbcfb .cell .markdown}
-# Informal Labour Market Stress Index (ILMSI)
-
-### State-Level Analysis of Informal Worker Vulnerability in India
-
-### Using PLFS 2022-23, 2023-24, and 2025
-
 ------------------------------------------------------------------------
 
 ## Overview
@@ -60,7 +40,7 @@ informality.
 
 ## Key Visualisation
 
-![EGI vs SII Three Year Comparison](egi_sii_trendlines.png)
+![EGI vs SII Three Year Comparison](Outputs/egi_sii_trendlines.png)
 
 *Each point is one state in one year (2022-23, 2023-24, 2025). The
 x-axis is the Earnings Gap Index and the y-axis is the Structural
