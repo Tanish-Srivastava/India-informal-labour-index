@@ -1,4 +1,4 @@
-# Informal Labour Market Stress Index (ILMSI)
+# Informal Labour Market Stress in India 
 ### A Two-Dimensional State-Level Analysis of Informal Worker 
 ### Vulnerability in India | PLFS 2022-23, 2023-24, and 2025
 
