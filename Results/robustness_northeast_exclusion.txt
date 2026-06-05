@@ -1,0 +1,31 @@
+ROBUSTNESS CHECK 1: Excluding Northeast States and Small UTs
+=============================================================
+N = 16 states
+States: Andhra Pradesh, Bihar, Gujarat, Haryana, Himachal Pradesh,
+Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha,
+Punjab, Rajasthan, Tamil Nadu, Uttar Pradesh, West Bengal
+
+SII ~ literacy + agri_share + urban_share + gva_pc_std
+R² = 0.724
+
+Variable            Coef        p     Sig
+------------------------------------------
+const             +90.082    0.0395    **
+literacy           -0.314    0.5234
+agri_share         -0.591    0.0569     *
+urban_share        +0.529    0.0212    **
+gva_pc_std        -26.047    0.0000   ***
+
+EGI ~ literacy + agri_share + urban_share + gva_pc_std
+R² = 0.694
+
+Variable            Coef        p     Sig
+------------------------------------------
+const             -17.532    0.6264
+literacy           +0.342    0.4044
+agri_share         +0.858    0.0013   ***
+urban_share        -0.432    0.0236    **
+gva_pc_std         +3.459    0.2687
+
+Note: HC1 robust standard errors throughout.
+*** p<0.01, ** p<0.05, * p<0.10

@@ -1,0 +1,30 @@
+ROBUSTNESS CHECK 2: Population-Weighted Regression (WLS)
+=========================================================
+N = 27 states
+Weights: Census 2011 state population in lakhs
+
+SII ~ literacy + agri_share + urban_share + gva_pc_std
+R² = 0.636
+
+Variable            Coef        p     Sig
+------------------------------------------
+const             +99.814    0.0266    **
+literacy           -0.058    0.9025
+agri_share         -0.706    0.0045   ***
+urban_share        -0.187    0.5062
+gva_pc_std        -17.194    0.0024   ***
+
+EGI ~ literacy + agri_share + urban_share + gva_pc_std
+R² = 0.507
+
+Variable            Coef        p     Sig
+------------------------------------------
+const             -16.213    0.6592
+literacy           +0.238    0.6089
+agri_share         +0.741    0.0005   ***
+urban_share        -0.067    0.7748
+gva_pc_std         +0.774    0.8229
+
+Note: HC1 robust standard errors throughout.
+Weights = Census 2011 population in lakhs per state.
+*** p<0.01, ** p<0.05, * p<0.10
